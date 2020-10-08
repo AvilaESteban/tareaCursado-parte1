@@ -1,0 +1,22 @@
+.formValid{
+    width: 300px;
+    margin:0 auto;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+/* form section input{
+    display: block;
+} */
+
+.error{
+    color: red;
+    font-size: 12px;
+}
+
+.valid{
+    border-color: green;
+}
+.invalid{
+    border-color: red;
+}

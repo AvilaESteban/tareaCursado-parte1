@@ -1,0 +1,21 @@
+
+.empleadoList{
+    max-width: 800px ;
+    margin: 0 auto ;
+}
+.empleadoRow{
+    border-bottom: 1px solid lightgray;
+    display: flex;
+     /* justify-content: space-around; */
+    margin: 10px;
+    padding: 10px; 
+}
+
+.empleadoAvatar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+.empleadoRow_info{
+    flex: 1;
+}

@@ -1,0 +1,79 @@
+.paletaColores{
+    width: 800px;
+    margin: 0 auto ;
+}
+
+.inputColor{
+    width:100%;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0.0,75); 
+}
+
+.inputColor > div {
+    padding: 20px;
+}
+
+.inputColor_header{
+    text-align: start;
+}
+
+
+.inputColor_body{
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    background-color: #E3F2FD;
+    display: flex;
+}
+
+.inputColor_currentColor{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.inputColor_input{
+    flex: 1;
+}
+
+.inputColor_footer{
+    text-align: right;
+}
+
+.listaColores{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.colorPaleta{
+    min-width: 240px;
+    margin: 10px;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0.0,75); 
+}
+
+.colorPaleta > div { 
+    padding:10px;
+}
+
+.colorPaleta_body{
+    background-color: #E3F2FD;
+    padding: 30px ;
+}
+
+.colorPaleta_color{
+    width: 100px;
+    height: 100px;
+    margin: 0  auto;
+}  
+
+.colorPaleta_header{
+    text-align: start;
+}
+
+.colorPaleta_footer{
+    text-align: end;
+   
+}
+
+
